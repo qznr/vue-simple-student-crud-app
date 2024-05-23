@@ -15,8 +15,8 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Run JSON-Server
 
 ```sh
-npm run build
+npx json-server --watch temp/db.json
 ```
